@@ -8,7 +8,6 @@ import ProcessSection from "../components/home/ProcessSection";
 import PortfolioSection from "../components/home/PortfolioSection";
 import TeamSection from "../components/home/TeamSection";
 import FAQSection from "../components/home/FAQSection";
-import WhatsAppFloat from "../components/home/WhatsappFloat";
 
 export default function Home() {
   return (
@@ -24,7 +23,6 @@ export default function Home() {
       <Testimonials />
       <FAQSection />
       <CTA />
-      <WhatsAppFloat />
 
     </div>
   );
